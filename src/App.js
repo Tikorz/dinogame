@@ -5,9 +5,9 @@ export default function App() {
     {
       questionText: "Was ist die Hauptstadt von Deutschland?",
       answerOptions: [
-        { answerText: "Berlin", isCorrect: false },
+        { answerText: "Berlin", isCorrect: true },
         { answerText: "Essen", isCorrect: false },
-        { answerText: "Hamburg", isCorrect: true },
+        { answerText: "Hamburg", isCorrect: false },
         { answerText: "Köln", isCorrect: false },
       ],
     },
@@ -51,10 +51,10 @@ export default function App() {
       questionText:
         "Wenn es in Berlin 15:30 ist wie spät ist es in Phuket(Thailand)?",
       answerOptions: [
-        { answerText: "21:30 Uhr", isCorrect: false },
+        { answerText: "21:30 Uhr", isCorrect: true },
         { answerText: "23:30 Uhr", isCorrect: false },
         { answerText: "3:30 Uhr", isCorrect: false },
-        { answerText: "5:30 Uhr", isCorrect: true },
+        { answerText: "5:30 Uhr", isCorrect: false },
       ],
     },
     {
