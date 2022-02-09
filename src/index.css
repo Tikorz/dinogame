@@ -12,7 +12,7 @@ body {
 }
 
 @viewport {
-  width: 320px;
+  width: device-width;
   zoom: 1;
 }
 
@@ -26,8 +26,8 @@ body {
 
 .app {
   background-color: #252d4a;
-  width: 450px;
-  min-height: 200px;
+  width: auto;
+  min-height: auto;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
